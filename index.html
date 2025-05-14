@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soyHES</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="website icon" href="./images/webicon.png" type="png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="./images/logo.png"" alt="my-logo" loading="lazy">
+            <p>soyHES</p>
+        </div>
+        <div class="nav-links">
+            <a href="#project">Project</a>
+            <a href="#" onclick="showForm()">Contact</a>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="main-left">
+            <div class="top">
+                <p>welcome to</p>
+                <p>my website</p>
+            </div>
+            <div class="btm">
+                    <h2>Hi, I'm <span class="text"></span></h2>
+                    <div class="links">
+                        <p>FOLLOW FOR MORE <i class="fa-solid fa-chevron-right fa-xs"></i></p>
+                        <div class="icons">
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="main-right"></div>
+    </div>
+    <section class="gallery" id="project">
+        <div class='gallery-track'>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image01.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image02.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image03.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image04.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image05.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image06.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image07.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image08.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image09.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image10.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image11.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image12.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image13.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image14.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image15.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image16.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image17.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image18.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image19.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image20.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image21.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image22.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image23.png">
+                </div>
+            </div>
+            <div class='card'>
+                <div class='card-image-wrapper'>
+                    <img src="./images/image24.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="form-container">
+        <span class="close"><i class="fa-solid fa-circle-xmark"></i></span>
+        <form>
+            <label for="name">Name :</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email :</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="phone">Phone :</label><br>
+            <input type="text" id="phone" name="phone"><br>
+            <label for="issue">Subject :</label><br>
+            <select id="issue" name="issue">
+                <option value="">Select</option>
+                <option value="Question">Question</option>
+                <option value="Suggestion">Suggestion</option>
+            </select><br>
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form> 
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
